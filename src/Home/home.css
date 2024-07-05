@@ -1,0 +1,92 @@
+.homecss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3a275c; /* Center content horizontally */
+}
+
+.filter {
+  padding: 10px;
+  width: 30%; /* Adjust the width of the filter section */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipecard {
+  background-color: #ccc;
+  width: 300px; /* Adjust the card width as needed */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Ensure image and content stack vertically */
+}
+
+.recipecard img {
+  width: 100%; /* Ensure image takes full width of card */
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 8px;
+}
+
+.recipe-title {
+  margin: 10px 0;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Ensure button stays at the bottom of the card */
+.recipecard button {
+  margin-top: auto;
+}
+
+/* Ensure consistency in image display */
+.recipecard .recipe-image {
+  height: 200px; /* Adjust as needed for consistent card height */
+}
+
+
+.recipe-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

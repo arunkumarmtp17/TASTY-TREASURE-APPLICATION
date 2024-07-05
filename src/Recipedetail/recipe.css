@@ -1,0 +1,63 @@
+.recipe-details-container {
+    max-width: 600px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: pink;
+  }
+  
+  .back-home-button {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .recipe-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-image1 {
+    display: block;
+    margin-left: 10%;
+    width: 80%;
+    height: 300px; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-info1 {
+    margin-left: 10%;
+    width: 75%;
+    background-color: #77a4d2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .recipe-time {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .materials-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .materials-list li {
+    margin-bottom: 5px;
+  }
+  
+  .recipe-notes {
+    margin-top: 20px;
+  }
+  
+  .recipe-notes h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-notes p {
+    margin-bottom: 5px;
+  }
+  
